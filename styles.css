@@ -7,16 +7,16 @@ body, h1, h2, h3, p, ul {
 
 body {
     line-height: 1.6;
-    background-color: #f0f8ff; /* Alice Blue background */
+    background-color: #e6f7ff; /* Light blue background */
     color: #333;
 }
 
 header {
-    background: #0044cc; /* Dark Blue background */
+    background: #003366; /* Dark Blue background */
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -49,23 +49,23 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffcc00; /* Gold color on hover */
 }
 
 section {
-    background: #fff;
+    background: #ffffff;
     padding: 2rem;
     margin: 1rem auto;
     max-width: 800px;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
-    border-bottom: 3px solid #0044cc; /* Dark Blue border */
+    border-bottom: 3px solid #003366; /* Dark Blue border */
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
-    color: #0044cc;
+    color: #003366;
 }
 
 section h3 {
@@ -79,7 +79,7 @@ ul {
 }
 
 footer {
-    background: #0044cc; /* Dark Blue background */
+    background: #003366; /* Dark Blue background */
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -94,11 +94,11 @@ footer p {
 }
 
 a {
-    color: #0044cc;
+    color: #003366;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #ffd700; /* Gold color on hover */
+    color: #ffcc00; /* Gold color on hover */
 }
